@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Компьютерные вирусы</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="header-container">
+        <div class="logo-block">
+            <a href="#" class="logo">
+                <img src="img/logo.svg" alt="Логотипчк">
+            </a>
+        </div>
+    <nav class="nav-block">
+        <ul class="nav-menu">
+            <li><a href="#history-sections">История</a></li>
+            <li><a href="#protection">Защита</a></li>
+            <li><a href="#cta">Обнаружение</a></li>
+        </ul>
+    </nav>
+    </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+        <h1>
+            Компьютерные <span class="red">вирусы<span class="cursor">_</span></span>
+        </h1>
+        <p class="hero-subtitle">Узнайте все о цифровых угрозах и методах защиты от них</p>
+        <a href="test.html" class="test-button">Пройдите тест и узнайте свой уровень защиты</a>
+        </div>
+    </section>
+        <div class="viruses-background">
+            <img src="img/virus1.png" class="virus" data-speed="30">
+            <img src="img/virus2.png" class="virus" data-speed="30">
+            <img src="img/virus3.png" class="virus" data-speed="30">
+            <img src="img/virus4.png" class="virus" data-speed="30">
+            <img src="img/virus5.png" class="virus" data-speed="30">
+            <img src="img/virus6.png" class="virus" data-speed="30">
+            <img src="img/virus7.png" class="virus" data-speed="30">
+            <img src="img/virus8.png" class="virus" data-speed="30">
+        </div>
+<span class="gran">
+        <img src="img/gran.svg">
+</span>
+<section class="virus-history">
+    <h2> <span class="red">ИСТОРИЯ</span> компьютерных вирусов</h2>
+    <p class="history-description">
+      В этом разделе собраны наиболее популярные и вредоносные вирусы за всю историю интернета
+    </p>
+
+    <section id="history-sections" class="history-section">
+  <div class="virus-carousel">
+    <div class="carousel-track">
+        <div class="virus-card-wrapper" data-virus="virus">
+        <img src="img/history-card.svg" alt="HISTORY" class="virus-card-img">
+      </div>
+
+
+      <div class="virus-card-wrapper" data-virus="brain">
+        <img src="img/brain-card.svg" alt="BRAIN" class="virus-card-img">
+      </div>
+
+      <div class="virus-card-wrapper" data-virus="iloveyou">
+        <img src="img/iloveyou-card.svg" alt="ILOVEYOU" class="virus-card-img">
+      </div>
+
+      <div class="virus-card-wrapper" data-virus="stuxnet">
+        <img src="img/stuxnet-card.svg" alt="STUXNET" class="virus-card-img">
+      </div>
+
+      <div class="virus-card-wrapper" data-virus="melissa">
+        <img src="img/melissa-card.svg" alt="MELISSA" class="virus-card-img">
+      </div>
+
+      <div class="virus-card-wrapper" data-virus="creeper">
+        <img src="img/creeper-card.svg" alt="CREEPER" class="virus-card-img">
+      </div>
+
+      <div class="virus-card-wrapper" data-virus="wannacry">
+        <img src="img/wannacry-card.svg" alt="WANNACRY" class="virus-card-img">
+      </div>
+
+    </div>
+  </div>
+
+<div class="virus-popup" id="virusPopup">
+  <div class="popup-content">
+    <button class="popup-close">&times;</button>
+    <h3 id="popupTitle"></h3>
+    <p id="popupYear"></p>
+    <p id="popupDescription"></p>
+    <span id="popupTag"></span>
+  </div>
+</div>
+</section>
+</section>
+<section class="protection-section">
+   <div class="red-mist"></div>
+   <div class="red-mist-2"></div>
+    <div class="red-mist-3"></div>
+    <div class="red-mist-4"></div>
+    <div class="red-mist-5"></div>
+    <div class="red-stars6"></div>
+    <div class="red-stars7"></div>
+    <div class="red-stars8"></div>
+    <div class="red-stars9"></div>
+    <div class="red-stars10"></div>
+  <div class="protection-content">
+    <div class="protection-header">
+      <span id="protection" class="protection-tag"></span>
+      <h2>Для чего нужно защищаться?</h2>
+    </div>
+    <div class="protection-list">
+      <div class="protection-item">
+        <div class="item-number">01</div>
+        <div class="item-content">
+            <h3><span class="red">Потеря данных и файлов.</span></h3>
+          <p>Вирусы могут удалить, повредить или зашифровать важную информацию, сделав ее недоступной</p>
+        </div>
+      </div>
+      <div class="protection-item">
+        <div class="item-number">02</div>
+        <div class="item-content">
+            <h3><span class="red">Угроза личной информации</span></h3>
+          <p>Вредоносные программы часто крадут пароли и банковские реквизиты, что ведет к потери финансов.</p>
+        </div>
+      </div>
+
+      <div class="protection-item">
+        <div class="item-number">03</div>
+        <div class="item-content">
+            <h3><span class="red">Нарушение работы компьютера</span></h3>
+          <p>Вирусы замедляют систему, выводя ее из строя или используют ресурсы ПК для атак на другие сети.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section id="cta" class="cta-section">
+  <div class="red-line"></div>
+
+  <div class="cta-content">
+      <h1><span class="red">ОБНАРУЖЕНИЕ</span> компьютерных вирусов</h1>
+
+    <p class="cta-text">Большинство пользователей имеют привычку запускать проверку на вирусы уже после того, как становится заметно, что с системой что-то не в порядке. Но ко времени проверки вредоносное ПО может безвозвратно повредить системные файлы.</p>
+
+    <div class="cta-boxes">
+      <a href="hide-1.html" class="cta-box" target="_blank">
+        <span>Поведенческие признаки и базовые проверки</span>
+      </a>
+
+      <a href="hide-2.html" class="cta-box" target="_blank">
+        <span>Стандартные антивирусные сканеры</span>
+      </a>
+
+      <a href="hide-3.html" class="cta-box" target="_blank">
+        <span>Поведенческий анализ</span>
+      </a>
+    </div>
+  </div>
+</section>
+<script src="scripts/scripts.js"></script>
+</body>
+</html>
