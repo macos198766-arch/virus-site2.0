@@ -43,10 +43,10 @@ header {
     flex-direction: row;
 }}
 .logo img {
-    height: 36px;
+    height: 30px;
 }
 .logo-block {
-    background: rgba(213, 21, 0, 0.25);
+ background: rgba(213, 21, 0, 0.25);
     backdrop-filter: blur(12px);
     border-radius: 40px;
     padding: 14px 32px;
@@ -970,6 +970,7 @@ width: 100%;
     font-size: 13px !important;
   }
 }
+
 
 
 
