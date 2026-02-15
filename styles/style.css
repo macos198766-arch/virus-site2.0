@@ -28,7 +28,7 @@ body::before {
   z-index: 1;
 }
 header {
-    margin-left: 30px;
+     margin-left: 30px;
     position: sticky;
     top: 30px;
     z-index: 1000;
@@ -38,9 +38,9 @@ header {
     max-width: 100%;
     margin-right: 40px;
     display: flex;
-    justify-content: space-between; /* Лого слева, меню справа */
+    justify-content: space-between;
     align-items: center;
-    flex-direction: row; /* Убедимся, что не колонка */
+    flex-direction: row;
 }}
 .logo img {
     height: 36px;
@@ -970,6 +970,7 @@ width: 100%;
     font-size: 13px !important;
   }
 }
+
 
 
 
