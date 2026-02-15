@@ -707,8 +707,6 @@ width: 100%;
         width: 100%;
     }
 
-    /* Хедер — всё по центру */
-    header {
         margin-left: 0;
         top: 10px;
         width: 100%;
@@ -766,7 +764,6 @@ width: 100%;
         height: 100%;
     }
 
-    /* История */
     .virus-history h2 {
         font-size: 42px;
         line-height: 1.2;
@@ -829,7 +826,6 @@ width: 100%;
         font-size: 16px;
     }
 
-    /* CTA блок */
     .cta-section {
         padding: 40px 20px;
     }
@@ -859,7 +855,6 @@ width: 100%;
     }
 }
 
-/* ========== ОЧЕНЬ МАЛЕНЬКИЕ ТЕЛЕФОНЫ ========== */
 @media (max-width: 480px) {
     .hero-content h1 {
         font-size: 36px;
@@ -884,4 +879,5 @@ width: 100%;
         width: 3px;
     }
 }
+
 
