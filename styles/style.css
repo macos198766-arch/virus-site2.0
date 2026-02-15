@@ -41,7 +41,7 @@ header {
     flex-direction: row;
 }
 .logo img {
-    height: 30px;
+    height: 36px;
 }
 .logo-block {
  background: rgba(213, 21, 0, 0.25);
@@ -1085,6 +1085,7 @@ display: none;
   white-space: normal !important;
 }
 }
+
 
 
 
